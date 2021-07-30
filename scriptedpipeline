@@ -1,0 +1,18 @@
+node {
+    stage("Build") {
+        echo "Some code compilation here..."
+    }
+
+    stage("Deploy") {
+        echo "Some tests execution here..."
+        echo "1"
+    }
+     stage("Test") {
+        echo "Some tests execution here..."
+        echo "1"
+    }
+     stage("release") {
+        echo "Some tests execution here..."
+        echo "1"
+    }
+}
